@@ -1,0 +1,143 @@
+body{
+    background:#999999;
+
+}
+    
+hi {
+    font-size:18pt;
+    color:#FF0000;
+}
+P{
+    color:red;
+    font-weight:bold;
+    text-decoration:underline
+}
+
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container utama */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #00b4db, #0083b0);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* Navigasi */
+nav {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0083b0;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #00b4db;
+    color: white;
+}
+
+/* Artikel */
+article {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+/* Card Konten */
+.konten {
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.konten:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+}
+
+.konten img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Judul */
+.judul {
+    background: #00b4db;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.judul a {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Deskripsi */
+.konten p {
+    padding: 15px;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    background-color: #0083b0;
+    color: white;
+    border-radius: 12px;
+}
+
+
+
+
